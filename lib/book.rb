@@ -3,7 +3,11 @@ class Book
     @title = title
   end
  
+  def title
+    @title
+  end
   
+  Book.new(title)
 
 end
 
